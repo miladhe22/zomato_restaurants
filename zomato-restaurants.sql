@@ -25,7 +25,7 @@ GROUP BY c.country, rating_color;
 
 
 
---question 4 : SELECT Locality, COUNT(*) AS TotalRestaurants
+--question 4 : All areas with more than 50 restaurants
 SELECT locality, COUNT(*) AS TotalRestaurants
 FROM zomato
 GROUP BY locality
